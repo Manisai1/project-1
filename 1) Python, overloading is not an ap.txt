@@ -1,0 +1,11 @@
+1) When a class is derived from more than one base class it is called multiple Inheritance. The derived class inherits all the features of the base case.
+A class can be derived from more than one superclass in Python. This is called multiple inheritance.
+For example, a class Bat is derived from superclasses Mammal and WingedAnimal. It makes sense because bat is a mammal as well as a winged animal.
+
+2)Delegation is a design pattern in which an object, called the delegate, is responsible for performing certain tasks on behalf of another object, called the delegator. This can be done by the delegator forwarding method calls and attribute access to the delegate. In its most basic form, delegation can be implemented using the following approach: the delegator passes requests for certain actions to the delegate, which then performs the actions on behalf of the delegator.
+
+3)It is one of the fundamental concepts of Object-Oriented Programming. In this concept, we will describe a class that references to one or more objects of other classes as an Instance variable. Here, by using the class name or by creating the object we can access the members of one class inside another class. It enables creating complex types by combining objects of different classes. It means that a class Composite can contain an object of another class Component. This type of relationship is known as Has-A Relation.
+
+4)A bound method is the one which is dependent on the instance of the class as the first argument. It passes the instance as the first argument which is used to access the variables and functions. In Python 3 and newer versions of python, all functions in the class are by default bound methods.
+
+5)Pseudo-private names are an advanced feature, entirely optional, and probably won't be very useful until you start writing large class hierarchies in multi-programmer projects. But because you may see this feature in other people's code, you need to be somewhat aware of it even if you don't use it in your own.
